@@ -1,51 +1,122 @@
+<!DOCTYPE html>
 <html>
 <head>
 	<title>LimeWire</title>
+	
+	<style>
+	* {
+		box-sizing: border-box;
+	}
+	
+	body {
+		font-family: Arial;
+		
+		background-image: url("spiralbg.jpg");
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	
+	.flex-container {
+		display: flex;
+	}
+	
+	.flex-container > div {
+		margin: 10px
+		padding: 30px;
+		width: 100%;
+	}
+
+	header {
+		padding: 30px;
+		text-align: center;
+		font-size: 35px;
+		color: black;
+	}
+
+	mid { 
+		float: middle;
+		width: 100%;
+		padding: 20px;
+		text-align: center;
+	}
+
+	section:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+	footer {
+		padding: 10px;
+		text-align: center;
+		color: black;
+	}
+
+	@media (max-width: 600px) {
+		member, member {
+		width: 100%;
+		height: auto;
+		}
+	}
+
+	</style>
 </head>
 
-<body style="font-family:Arial">
-	<img src="Full Logo.png">	
-
-	<h2>Documentation</h2>
-	<a href="https://drive.google.com/open?id=1hcGFSZ5_JshB_hhtJ8OuCbypQ7kvxJJqMP3_nLr6RY8" target="_blank">
-		<h4>Requirements</h4>
-	</a>
-	<a href="https://drive.google.com/open?id=1MjqBuaoTi4zAkC1lN6cJxiyKAZI2o1_wxwWWIVE-AlU" target="_blank">
-		<h4>Architecture</h4>
-	</a>
-	<a href="https://drive.google.com/open?id=1D8_-ANb0qrTVcZ2aWSzwpwQSejCGW8WnxvowBCxixg0" target="_blank">
-		<h4>Method Selection & Planning</h4>
-	</a>
-	<a href="https://drive.google.com/open?id=1YHsXS-P8PdmKJSroO2ZUR1cQfW-W5WVbsiEonsJvLII" target="_blank">
-		<h4>Risk Assessment & Mitigation</h4>
-	</a>
+<body>
+	<header>
+		<img src="Full Logo.png">
+	</header>
 	
-	<br>
-	<h2>The Team</h2>
-	<p>
-		<img src="https://avatars3.githubusercontent.com/u/44088108?s=460&v=4" alt="Andrew Todd" style="float:top;width:100px;height:100px;">
-		Andrew Todd
-
-
-		<img src="https://avatars1.githubusercontent.com/u/44088789?s=150&v=4" alt=Charlie Dyson" style="float:bottom;width:100px;height:100px;">
-		Charlie Dyson
+	<section>
+		<mid>
+			<h2>Documentation</h2>
+			<a href="https://drive.google.com/open?id=1hcGFSZ5_JshB_hhtJ8OuCbypQ7kvxJJqMP3_nLr6RY8" title="View the Requirements document on Google Drive" target="_blank">
+				<h4>Requirements</h4>
+			</a>
+			<a href="https://drive.google.com/open?id=1MjqBuaoTi4zAkC1lN6cJxiyKAZI2o1_wxwWWIVE-AlU" title="View the Architecture document on Google Drive" target="_blank">
+				<h4>Architecture</h4>
+			</a>
+			<a href="https://drive.google.com/open?id=1D8_-ANb0qrTVcZ2aWSzwpwQSejCGW8WnxvowBCxixg0" title="View the Method Selection & Planning document on Google Drive" target="_blank">
+				<h4>Method Selection & Planning</h4>
+			</a>
+			<a href="https://drive.google.com/open?id=1YHsXS-P8PdmKJSroO2ZUR1cQfW-W5WVbsiEonsJvLII" title="View the Risk Assessment & Migration document on Google Drive" target="_blank">
+				<h4>Risk Assessment & Mitigation</h4>
+			</a>
+		</mid>
+		
+		<mid>
+			<h2>The Team</h2>
+			<div class="flex-container">
+				<div>
+					<img src="https://avatars3.githubusercontent.com/u/44088108?s=460&v=4" alt="Andrew Todd" style="float:bottom;width:100px;height:100px;">
+					<p>Andrew Todd</p>
+				</div>
+				<div>
+					<img src="https://avatars1.githubusercontent.com/u/44088789?s=150&v=4" alt="Charlie Dyson" style="float:bottom;width:100px;height:100px;">
+					<p>Charlie Dyson</p>
+				</div>
+				<div>
+					<img src="https://avatars0.githubusercontent.com/u/44088095?s=460&v=4" alt="Ed Gould" style="float:bottom;width:100px;height:100px;">
+					<p>Ed Gould</p>
+				</div>
+				<div>
+					<img src="https://avatars3.githubusercontent.com/u/44088279?s=150&v=4" alt="Evie Qian" style="float:bottom;width:100px;height:100px;">
+					<p>Evie Qian</p>
+				</div>
+				<div>
+					<img src="https://avatars2.githubusercontent.com/u/44088540?s=150&v=4" alt="Luke Richardson" style="float:bottom;width:100px;height:100px;">
+					<p>Luke Richardson</p>
+				</div>
+				<div>
+					<img src="https://avatars3.githubusercontent.com/u/16337425?s=150&v=4" alt="Umar Farooqi" style="float:bottom;width:100px;height:100px;">
+					<p>Umar Farooqi</p>
+				</div>
+			</div>
+		</mid>
+	</section>
 	
-	
-		<img src="https://avatars0.githubusercontent.com/u/44088095?s=460&v=4" alt="Ed Gould" style="float:bottom;width:100px;height:100px;">
-		Ed Gould
-	
-	
-		<img src="https://avatars3.githubusercontent.com/u/44088279?s=150&v=4" alt="Evie Qian" style="float:bottom;width:100px;height:100px;">
-		Evie Qian
-	
-	
-		<img src="https://avatars2.githubusercontent.com/u/44088540?s=150&v=4" alt="Luke Richardson" style="float:bottom;width:100px;height:100px;">
-		Luke Richardson
-	
-	
-		<img src="https://avatars3.githubusercontent.com/u/16337425?s=150&v=4" alt="Umar Farooqi" style="float:bottom;width:100px;height:100px;">
-		Umar Farooqi
-	</p>
-
+	<footer>
+		<a href="https://www.ecosia.org/images?q=goose" target="_blank"><img src="revenue_stream.png"></a>
+	</footer>
 </body>
 </html>
