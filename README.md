@@ -1,2 +1,1 @@
-# LimeWire-SEPR
-Repository for the SEPR group LimeWire.
+Repository for SEPR Group Project 2018, Team LimeWire
