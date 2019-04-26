@@ -2,132 +2,13 @@
 <html>
 <head>
 	<title>LimeWire</title>
-	
-	<style>
-	* {
-		box-sizing: border-box;
-	}
-	
-	body {
-		font-family: Verdana;
-		color: black;
-		background-image: url("res/web-bg-light.jpg");
-		background-size: 100% 100%;
-		background-attachment: fixed;
-	}
-	
-	/* Style of tab */
-	.tab {
-		overflow: hidden;
-		border: 5px solid #ccc;
-		background-color: #f1f1f1;
-	}
-	
-	/* Style of buttons in tab */
-	.tab button {
-		background-color: inherit;
-		float: left;
-		border: 1px solid #f0f0f0;
-		outline: none;
-		cursor: pointer;
-		padding: 14px 16px;
-		transition: 0.3s;
-		font-size: 17px;
-		
-	}
-	
-	/* Button activity when hovered over */
-	.tab button:hover {
-		background-color: #ddd;
-	}
-
-	/* Class for current active tab */
-	.tab button.active {
-		background-color: #ccc;
-	}
-	
-	/* Style of tab content */
-	.tabcontent {
-		display: none;
-		padding: 6px 12px;
-		border-top: none;
-		animation: fadeEffect 0.7s;
-	}
-	
-	@keyframes fadeEffect {
-		from {opacity: 0;}
-		to {opacity: 1;}
-	}
-	
-	.doc container {
-		display: flex
-		justify-content: center;
-	}
-	
-	.flex-container {
-		display: flex;
-		justify-content: center;
-	}
-	
-	.flex-container > div {
-		margin: 100px
-		padding: 30px;
-		width: 100%;
-	}
-
-	h2 {
-		font-family: Georgia;
-		align: center;
-	}
-	
-	h3 {
-		font-family: Georgia;
-		align: center;
-	}
-	
-	h4 {
-		font-family: Georgia;
-		align: center;
-	}
-	
-	header {
-		padding: 30px;
-		text-align: center;
-		font-size: 35px;
-		color: black;
-	}
-
-	mid { 
-		float: middle;
-		width: 100%;
-		padding: 20px;
-		text-align: center;
-	}
-
-	section:after {
-		content: "";
-		display: table;
-		clear: both;
-	}
-
-	footer {
-		padding: 10px;
-		text-align: right;
-		color: black;
-		font-size: 15px;
-	}
-
-	@media (max-width: 600px) {
-		member, member {
-		width: 100%;
-		height: auto;
-		}
-	}
-
-	</style>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+	<a href="https://github.com/Ed-Gould/limewireA4"><button id="gitRepo" type="button" class="btn btn-danger">GitHub Repo</button></a>
+	
 	<header>
 		<img src="res/Full Logo Transparent.png">
 	</header>
